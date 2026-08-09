@@ -1,0 +1,12 @@
+import psycopg2
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from banco import conectar_banco
+
+# Estilo dos gráficos
+sns.set_theme(style="whitegrid")
+plt.rcParams["figure.figsize"] = (10, 5)
+
+conn = conectar_banco()
+print("Conexão estabelecida com sucesso!")
