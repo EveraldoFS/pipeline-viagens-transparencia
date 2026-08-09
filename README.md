@@ -91,7 +91,7 @@ Consolidação das informações com JOIN, GROUP BY, agregações, tabela e VIEW
 ---
 
 ## Estrutura do Projeto
-
+```
 pipeline-viagens-transparencia/
 ├── README.md
 ├── requirements.txt
@@ -111,10 +111,7 @@ pipeline-viagens-transparencia/
 │ ├── analise_4_resumo_mensal_gold.png
 │ └── analise_5_duracao_viagens.png
 └── data/
-
-
----
-
+```
 ## Perguntas de Negócio
 
 Foram respondidas **4 perguntas de negócio**.
